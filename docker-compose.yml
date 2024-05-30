@@ -1,0 +1,19 @@
+services:
+  nextjs:
+    image: node:18-alpine
+    restart: "no"
+    user: 1000:1000
+    working_dir: /app
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/app
+    command: npm run dev
+
+  node:
+    image: node:18-alpine
+    restart: "no"
+    user: 1000:1000
+    working_dir: /app
+    volumes:
+      - .:/app
