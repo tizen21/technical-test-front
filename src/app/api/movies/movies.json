@@ -1,0 +1,122 @@
+[
+  {
+    "title": "The Godfather",
+    "rating": 9.2,
+    "year": 1972,
+    "poster": "https://caas-tenants-assets.s3.eu-west-3.amazonaws.com/temp-test-front/godfather.jpg",
+    "genre": "Crime, Drama",
+    "director": "Francis Ford Coppola",
+    "cast": ["Marlon Brando", "Al Pacino", "James Caan"],
+    "plot": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "rating": 9.3,
+    "year": 1994,
+    "poster": "https://caas-tenants-assets.s3.eu-west-3.amazonaws.com/temp-test-front/shawshank.jpg",
+    "genre": "Drama",
+    "director": "Frank Darabont",
+    "cast": ["Tim Robbins", "Morgan Freeman"],
+    "plot": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency."
+  },
+  {
+    "title": "Schindler’s List",
+    "rating": 8.9,
+    "year": 1993,
+    "poster": "https://caas-tenants-assets.s3.eu-west-3.amazonaws.com/temp-test-front/schindler.jpg",
+    "genre": "Biography, Drama, History",
+    "director": "Steven Spielberg",
+    "cast": ["Liam Neeson", "Ralph Fiennes", "Ben Kingsley"],
+    "plot": "In German-occupied Poland during World War II, Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis."
+  },
+  {
+    "title": "Raging Bull",
+    "rating": 8.2,
+    "year": 1980,
+    "poster": "https://caas-tenants-assets.s3.eu-west-3.amazonaws.com/temp-test-front/raging.jpg",
+    "genre": "Biography, Drama, Sport",
+    "director": "Martin Scorsese",
+    "cast": ["Robert De Niro", "Cathy Moriarty", "Joe Pesci"],
+    "plot": "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it."
+  },
+  {
+    "title": "Casablanca",
+    "rating": 8.5,
+    "year": 1942,
+    "poster": "https://caas-tenants-assets.s3.eu-west-3.amazonaws.com/temp-test-front/casablanca.jpg",
+    "genre": "Drama, Romance, War",
+    "director": "Michael Curtiz",
+    "cast": ["Humphrey Bogart", "Ingrid Bergman", "Paul Henreid"],
+    "plot": "A cynical expatriate American cafe owner struggles to decide whether or not to help his former lover and her fugitive husband escape the Nazis in French Morocco."
+  },
+  {
+    "title": "Citizen Kane",
+    "rating": 8.3,
+    "year": 1941,
+    "poster": "https://caas-tenants-assets.s3.eu-west-3.amazonaws.com/temp-test-front/citizen.jpg",
+    "genre": "Drama, Mystery",
+    "director": "Orson Welles",
+    "cast": ["Orson Welles", "Joseph Cotten", "Dorothy Comingore"],
+    "plot": "Following the death of publishing tycoon Charles Foster Kane, reporters scramble to uncover the meaning of his final utterance: ’Rosebud.’"
+  },
+  {
+    "title": "Gone with the Wind",
+    "rating": 8.1,
+    "year": 1939,
+    "poster": "https://caas-tenants-assets.s3.eu-west-3.amazonaws.com/temp-test-front/gone.jpg",
+    "genre": "Drama, Romance, War",
+    "director": "Victor Fleming, George Cukor, Sam Wood",
+    "cast": ["Clark Gable", "Vivien Leigh", "Thomas Mitchell"],
+    "plot": "A manipulative woman and a roguish man conduct a turbulent romance during the American Civil War and Reconstruction periods."
+  },
+  {
+    "title": "The Wizard of Oz",
+    "rating": 8.0,
+    "year": 1939,
+    "poster": "https://caas-tenants-assets.s3.eu-west-3.amazonaws.com/temp-test-front/oz.jpg",
+    "genre": "Adventure, Family, Fantasy",
+    "director": "Victor Fleming, George Cukor, Mervyn LeRoy, Norman Taurog, Richard Thorpe, King Vidor",
+    "cast": ["Judy Garland", "Frank Morgan", "Ray Bolger"],
+    "plot": "Dorothy Gale is swept away from a farm in Kansas to a magical land of Oz in a tornado and embarks on a quest with her new friends to see the Wizard who can help her return home in Kansas and help her friends as well."
+  },
+  {
+    "title": "One Flew Over the Cuckoo’s Nest",
+    "rating": 8.7,
+    "year": 1975,
+    "poster": "https://caas-tenants-assets.s3.eu-west-3.amazonaws.com/temp-test-front/cuckoo.jpg",
+    "genre": "Drama",
+    "director": "Milos Forman",
+    "cast": ["Jack Nicholson", "Louise Fletcher", "Will Sampson"],
+    "plot": "A criminal pleads insanity after getting into trouble again and once in the mental institution rebels against the oppressive nurse and rallies up the scared patients."
+  },
+  {
+    "title": "Lawrence of Arabia",
+    "rating": 8.3,
+    "year": 1962,
+    "poster": "https://caas-tenants-assets.s3.eu-west-3.amazonaws.com/temp-test-front/lawrence.jpg",
+    "genre": "Adventure, Biography, Drama",
+    "director": "David Lean",
+    "cast": ["Peter O’Toole", "Alec Guinness", "Anthony Quinn"],
+    "plot": "The story of T.E. Lawrence, the English officer who successfully united and led the diverse, often warring, Arab tribes during World War I in order to fight the Turks."
+  },
+  {
+    "title": "Vertigo",
+    "rating": 8.3,
+    "year": 1958,
+    "poster": "https://caas-tenants-assets.s3.eu-west-3.amazonaws.com/temp-test-front/vertigo.jpg",
+    "genre": "Mystery, Romance, Thriller",
+    "director": "Alfred Hitchcock",
+    "cast": ["James Stewart", "Kim Novak", "Barbara Bel Geddes"],
+    "plot": "A former police detective juggles wrestling with his personal demons and becoming obsessed with a hauntingly beautiful woman."
+  },
+  {
+    "title": "Psycho",
+    "rating": 8.5,
+    "year": 1960,
+    "poster": "https://caas-tenants-assets.s3.eu-west-3.amazonaws.com/temp-test-front/psycho.jpg",
+    "genre": "Horror, Mystery, Thriller",
+    "director": "Alfred Hitchcock",
+    "cast": ["Anthony Perkins", "Janet Leigh", "Vera Miles"],
+    "plot": "A Phoenix secretary embezzles $40,000 from her employer’s client, goes on the run, and checks into a remote motel run by a young man under the domination of his mother."
+  }
+]
