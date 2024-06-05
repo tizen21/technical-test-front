@@ -1,49 +1,69 @@
-# Exercice de Test Technique pour Développeur Front-End en Alternance
-## Contexte
-Vous avez rejoint une équipe de développement travaillant sur une application web Next.js utilisant TailwindCSS. 
-Votre tâche est de compléter et améliorer une fonctionnalité existante en suivant les spécifications ci-dessous. 
-Vous devez créer une page de listing de films avec des informations dynamiques récupérées depuis une API fictive.
+# Projet de Listing de Films
 
-## Objectif
-Créer une page de listing de films en utilisant Next.js 14 (App Router) et TailwindCSS. 
-Vous devez récupérer les données depuis une API et les afficher.
+## Introduction
 
-## Durée estimée
-~ 3 heures
+Ce projet a été réalisé dans le cadre d’un test technique pour un poste de Développeur Front-End en alternance chez StadiumGO. L’objectif est de créer une page de listing de films en utilisant Next.js et TailwindCSS. Les données des films sont récupérées depuis une API fictive.
 
-## Étapes à suivre
+## Instructions pour Lancer le Projet
 
-### Setup
-1. Cloner le Repository
-2. Installer les dépendances 
-3. Lancer NextJS 
-   * avec npm : `npm run dev` 
-   * avec docker : `docker compose up -d`
+### Prérequis
 
-### Récupérer les données Movies:
-Une API est exposé par le fichier `src/app/api/movies/routes.ts`
+    •	Node.js installé (version 14 ou plus)
 
-### Créer la Page de Listing:
-Créez un fichier `page.tsx` dans le dossier `src/app/movies`.
-Utilisez la méthode fetch pour récupérer les données de l'utilisateur depuis l'API et mettre en page les éléments.
+### Étapes
 
-### Styliser avec TailwindCSS:
-Utilisez les classes TailwindCSS pour créer la page de listing. 
-Voici 2 liens figma a suivre : 
-- Mobile : https://www.figma.com/proto/pCbevQ3QXBn1mGxHNqYPAj/Untitled?node-id=4-4407&t=ArI2wpZfVtqbF6JL-0&scaling=min-zoom&page-id=0:1
-- Desktop : https://www.figma.com/proto/pCbevQ3QXBn1mGxHNqYPAj/Untitled?node-id=1-41&t=ArI2wpZfVtqbF6JL-0&scaling=min-zoom&page-id=0:1
+1. Cloner le repository :
 
-### Bonus:
+- git clone https://github.com/tizen21/technical-test-front.git
+- cd technical-test-front
 
-- Implémenter une popin affichant les détails du Film cliqué.
+2. Installer les dépendances :
 
-## Critères de Réussite
-- La page de listing doit afficher correctement les informations.
-- Le design doit être propre, responsive, et utiliser TailwindCSS efficacement.
-- Le code doit être clair, bien structuré et suivre les bonnes pratiques de développement (Atomic Design Pattern)
+- npm install
 
-## Livrables
-- URL du repository GitHub avec votre solution.
-- Un fichier README décrivant les étapes pour lancer l'application et toute autre information pertinente.
+3. Lancer l’application :
 
-Bonne chance !
+• Avec npm :
+
+- npm run dev
+
+4. Accéder à l’application :
+
+Ouvrez votre navigateur et allez sur http://localhost:3000 pour voir l’application en action.
+
+## Détails techniques
+
+### API
+
+Les données des films sont récupérées depuis l’API située dans:
+
+- src/app/api/movies/movies.json.
+
+### Structure du projet
+
+    •	src/app/movies/page.tsx : Composant pour la recupération des données des films.
+    •	src/components/MovieCard.tsx : Composant pour afficher les informations d’un film.
+    • src/app/page.tsx Composant principal pour l'affichage de l'application.
+    •	src/components/Header.tsx : Composant pour le Header.
+
+### Récupération des Données
+
+La récupération des données se fait à l’aide de la fonction fetch dans le composant page.tsx. Les données sont ensuite affichées à l’aide de composants React.
+
+### Style
+
+La page utilise TailwindCSS pour la stylisation. Les classes TailwindCSS sont utilisées pour assurer une mise en page propre et responsive selon les maquettes Figma fournies.
+
+## Problèmes Rencontrés
+
+    •	Problème : Difficulté à styliser certaines parties de la page pour qu’elles soient parfaitement responsives.
+    •	Solution : Utilisation de TailwindCSS et ajustements manuels des classes utilitaires pour assurer la responsivité.
+
+    •	Problème : Je me suis trompé dans le schéma de base que j'aurais du suivre.
+    •	Solution : Préparer la structure avant de me lancer dans le code 😣
+
+## Conclusion
+
+Le projet fonctionne et ressemble à la maquette mais il n'est pas au niveau que je l'éspérais. J'ai essayé de rester sur un temps raisonnable et ne pas trop dépasser. C'était mon 1er test technique. J'aimerais beaucoup échanger avec vous et avoir des conseils qui me seraient précieux. N'hésitez pas à me contacter.
+
+Anthony - rey.anthony1@gmail.com
